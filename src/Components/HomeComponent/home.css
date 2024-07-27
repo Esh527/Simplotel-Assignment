@@ -1,0 +1,134 @@
+.container-one {
+   background-image: linear-gradient(to right, #ff66c4, #ff9897, #ffd363);
+   height: 100vh;
+}
+
+.image-container {
+   background-image: url("https://res.cloudinary.com/draisdub8/image/upload/v1721889141/Simplotel_Assignment/img1_edr77c.jpg");
+   height: 100%;
+   width: 100%;
+   background-size: cover;
+   position: relative;
+   background-position: center;
+}
+
+.text-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+   align-items: start;
+   padding: 20px; 
+   background-color: rgba(203, 110, 100, 0.8); 
+   width: auto; 
+   max-width: 400px; 
+   color: white; 
+   position: absolute; 
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%); 
+}
+
+.container-two {
+   background-image: linear-gradient(to right, #ff66c4, #ff9897, #ffd363);
+}
+
+.card-container {
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.burger-container, .pizza-container, .pasta-container {
+   background-color: white;
+   width: 270px;
+   margin: 10px;
+   border-radius: 0px 55px 0px 55px;
+}
+
+.burger, .pizza, .pasta {
+   margin: 10px;
+   padding: 10px;
+   height: 28vh;
+   width: 28vh;
+   border-radius: 0px 55px 0px 0px;
+}
+
+.burger-text, .pizza-text, .pasta-text {
+   font-size: 21px;
+}
+
+p {
+   font-size: 17px;
+}
+
+.button {
+   background-color: #ffc3bf;
+   border-radius: 10px 10px 10px 10px; 
+   height: 30px;
+}
+
+.button:hover {
+   background-color:#ff9897;
+}
+
+/* Media Queries */
+
+/* Small Devices (Tablets, 768px and below) */
+@media (max-width: 768px) {
+   .text-container {
+      padding: 15px;
+      max-width: 300px;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -40%);
+   }
+
+   .burger-container, .pizza-container, .pasta-container {
+      width: 200px;
+   }
+
+   .burger, .pizza, .pasta {
+      height: 20vh;
+      width: 20vh;
+   }
+
+   .burger-text, .pizza-text, .pasta-text {
+      font-size: 18px;
+   }
+
+   p {
+      font-size: 15px;
+   }
+}
+
+/* Extra Small Devices (Phones, 480px and below) */
+@media (max-width: 480px) {
+   .text-container {
+      padding: 10px;
+      max-width: 200px;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -30%);
+   }
+
+   .burger-container, .pizza-container, .pasta-container {
+      width: 150px;
+   }
+
+   .burger, .pizza, .pasta {
+      height: 15vh;
+      width: 15vh;
+   }
+
+   .burger-text, .pizza-text, .pasta-text {
+      font-size: 16px;
+   }
+
+   p {
+      font-size: 13px;
+   }
+
+   .button {
+      height: 25px;
+   }
+}

@@ -3,7 +3,7 @@
 This is a simple frontend application built with HTML, CSS, and JavaScript.
 
 ## Live Demo
-[View Live](https://myprojectdemo.com)
+[View Live](https://simplotel-front-end-assign.netlify.app/)
 
 ## Features
 - Responsive Design

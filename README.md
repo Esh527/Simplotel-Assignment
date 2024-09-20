@@ -12,7 +12,7 @@ This is a simple frontend application built with HTML, CSS, and JavaScript.
 - HTML5
 - CSS3 (Flexbox)
 - JavaScript (ES6+)
-- Bootstrap (if applicable)
+- Bootstrap 
 
 ## Getting Started
 To run this project locally, follow these steps.
